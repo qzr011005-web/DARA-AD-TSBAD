@@ -6,16 +6,19 @@ This repository provides the official implementation of the final DARA-AD config
 
 The released version corresponds to the final single-stage DARA-AD model:
 
-- single-stage Robust Adaptive Time-Frequency Decomposition (RATFD)
+- Single-stage Robust Adaptive Time-Frequency Decomposition (RATFD)
 - Role-Specialized Dual-Attention Reconstruction (RSDA-R)
 - Whitened Residual-Gated Adapter (WRGA)
-- Clean-Residual Joint Anomaly Scoring (CRJAS)
+- Joint Structural-Residual Anomaly Scoring
 
 The final released implementation forces the RATFD module to use single-stage seasonal extraction. The second-stage seasonal extraction is disabled in the final configuration.
 
 ## Dataset
 
-The experiments are conducted on the public TSB-AD multivariate evaluation subset, TSB-AD-M-Eva. The raw dataset is not redistributed in this repository.
+The experiments use the public multivariate split of TSB-AD.
+TSB-AD-M-Tuning is used for recorded hyperparameter tuning, while
+TSB-AD-M-Eva is used for the reported benchmark evaluation.
+The raw dataset is not redistributed in this repository.
 
 ## Run
 
