@@ -1,7 +1,6 @@
 # DARA-AD: A Decomposition-Aware Reconstruction Architecture for Multivariate Time-Series Anomaly Detection
 
-This repository provides the code for the final DARA-AD configuration reported in the paper:
-
+This repository provides the official implementation of the final DARA-AD configuration reported in the paper.
 **Decomposition-Aware Residual-Gated Attention for Multivariate Time-Series Anomaly Detection**
 
 ## Final Configuration
