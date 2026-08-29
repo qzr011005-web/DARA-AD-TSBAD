@@ -647,7 +647,7 @@ class ResidualGatedAttentionAdapter(nn.Module):
             dropout=dropout,
         )
 
-        # CA/TA role prior. Trend prefers channel; seasonal prefers temporal.
+        # Learnable CA/TA adapter mixture; initialization follows the released implementation.
         gamma_init = max(1e-4, min(float(gamma_init), 1.0 - 1e-4))
         if role == "trend":
             self.gamma = nn.Parameter(torch.tensor(gamma_init, dtype=torch.float32))
