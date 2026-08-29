@@ -1,4 +1,4 @@
-# DARA-AD for Multivariate Time-Series Anomaly Detection
+# DARA-AD: A Decomposition-Aware Reconstruction Architecture for Multivariate Time-Series Anomaly Detection
 
 This repository provides the code for the final DARA-AD configuration reported in the paper:
 
